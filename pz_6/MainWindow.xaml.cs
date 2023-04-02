@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -28,30 +29,24 @@ namespace pz_6
             InitializeComponent();
         }
 
-        private async void startButton_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            // Длительные вычисления с задержкой в 0,5 секунды
-            for (int i = 1; i <= 10; i++)
-            {
-                await Task.Delay(500); // Ожидание 0,5 секунды
+            var task = ProgressBar(500, progressBar);
+            await task;
 
-                // Обновление ProgressBar
-                progressBar.Value = i * 10;
+        }
+        public async Task ProgressBar(int a, ProgressBar progressBar)
+        {
+            int с = 1;
+            for (int i = 0; i < a; i++)
+            {
+                с *= a;
+                progressBar.Value += a / 100;
+                await Task.Delay(TimeSpan.FromSeconds(0.5));
+
             }
         }
-
-        private void inkCanvas_StrokeCollected(object sender, InkCanvasStrokeCollectedEventArgs e)
-        {
-            // Получение новой линии
-            Stroke newStroke = e.Stroke;
-
-            // Проверка, не содержится ли линия уже в коллекции strokes
-            if (!strokes.Contains(newStroke))
-            {
-                // Добавление новой линии в коллекцию strokes
-                
-                strokes.Add(newStroke);
-            }
-        }
+        //В синхроном режиме, прогресс бар не заполняется вообще, либо делает это настолько быстро, что ничего не понятно.
+         //А в асинхронном режиме, прогресс бар заполняется медленно, постепенно так, да и порисовать во время заполнения можно.
     }
 }
