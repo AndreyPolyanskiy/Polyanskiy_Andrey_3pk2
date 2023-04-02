@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyanskiy_3pk2", "Polyanskiy_3pk2\Polyanskiy_3pk2.csproj", "{91EB7DAD-5FB4-4BDD-8C90-7A575C665927}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_1", "Polyanskiy_3pk2\pz_1.csproj", "{91EB7DAD-5FB4-4BDD-8C90-7A575C665927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_2", "pz_2\pz_2.csproj", "{2A839645-184E-4A22-95BC-DDEFD350D7AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{91EB7DAD-5FB4-4BDD-8C90-7A575C665927}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91EB7DAD-5FB4-4BDD-8C90-7A575C665927}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91EB7DAD-5FB4-4BDD-8C90-7A575C665927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A839645-184E-4A22-95BC-DDEFD350D7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A839645-184E-4A22-95BC-DDEFD350D7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A839645-184E-4A22-95BC-DDEFD350D7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A839645-184E-4A22-95BC-DDEFD350D7AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
