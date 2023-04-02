@@ -84,15 +84,15 @@ namespace pz_4
             tree1.Insert(5, 10);
             tree1.Insert(2, 20);
             tree1.Insert(8, 30);
-            tree1.Insert(1, 40);
-            tree1.Insert(3, 50);
+            tree1.Insert(1, 40);//это
+            tree1.Insert(3, 50);//это
             
             BinaryTree tree2 = new BinaryTree();
             tree2.Insert(5, 60);
             tree2.Insert(2, 70);
             tree2.Insert(8, 80);
-            tree2.Insert(1, 40);
-            tree2.Insert(3, 50);
+            tree2.Insert(1, 40);//это
+            tree2.Insert(3, 50);//это
 
             List<int> commonValues = new List<int>();
             List<int> values1 = new List<int>();
