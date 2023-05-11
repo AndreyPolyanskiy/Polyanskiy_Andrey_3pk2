@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_1", "Polyanskiy_3pk2\pz_1.csproj", "{91EB7DAD-5FB4-4BDD-8C90-7A575C665927}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_1", "Polyanskiy_3pk2\pz_1.csproj", "{91EB7DAD-5FB4-4BDD-8C90-7A575C665927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_2", "pz_2\pz_2.csproj", "{2A839645-184E-4A22-95BC-DDEFD350D7AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_2", "pz_2\pz_2.csproj", "{2A839645-184E-4A22-95BC-DDEFD350D7AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz3", "pz3\pz3.csproj", "{0FE0025C-7E17-428F-8414-C7084DAF6BC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz3", "pz3\pz3.csproj", "{0FE0025C-7E17-428F-8414-C7084DAF6BC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_4", "pz_4\pz_4.csproj", "{53A5FDFB-0B3B-4F2B-AF21-DAD85EC93F40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_4", "pz_4\pz_4.csproj", "{53A5FDFB-0B3B-4F2B-AF21-DAD85EC93F40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_5", "pz_5\pz_5.csproj", "{DB8800F1-966E-480F-AD1D-9EC15D0843D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_5", "pz_5\pz_5.csproj", "{DB8800F1-966E-480F-AD1D-9EC15D0843D9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_6", "pz_6\pz_6.csproj", "{E4E63923-57F7-4FCB-A26F-72FC4F2BCE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_7", "pz_7\pz_7.csproj", "{CD19C03D-17C8-4FC0-A02D-429F2D7FE939}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E4E63923-57F7-4FCB-A26F-72FC4F2BCE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4E63923-57F7-4FCB-A26F-72FC4F2BCE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4E63923-57F7-4FCB-A26F-72FC4F2BCE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD19C03D-17C8-4FC0-A02D-429F2D7FE939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD19C03D-17C8-4FC0-A02D-429F2D7FE939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD19C03D-17C8-4FC0-A02D-429F2D7FE939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD19C03D-17C8-4FC0-A02D-429F2D7FE939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
