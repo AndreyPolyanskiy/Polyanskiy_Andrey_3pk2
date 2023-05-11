@@ -1,0 +1,26 @@
+﻿<Window x:Class="pz_10.MainWindow"
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pz_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid VerticalAlignment="Top" Margin="-81,-3,4,0">
+            <StackPanel Margin="90, 10, 10, 10" Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
+                <Button Content="B" x:Name="buttonBold" Width="54" FontWeight="Bold" Height="25" Click="buttonBold_Click" BorderThickness="0,0,0,1" BorderBrush="White" Background="White"/>
+                <Button Content="I" x:Name="buttonItalic" Width="68" FontStyle="Italic" Height="25" Click="buttonItalic_Click" BorderThickness="0,0,0,1" BorderBrush="White" Background="White"/>
+                <Button Content="U" x:Name="buttonStyle" Width="56" Height="25" Click="buttonStyle_Click" BorderThickness="0,0,0,1" BorderBrush="White" Background="White"/>
+                <Button Content="Отменить" x:Name="buttonUndo" Width="95" Height="25" Click="buttonUndo_Click" BorderThickness="0,0,0,1" BorderBrush="White" Background="White"/>
+                <Button Content="Сохранить" x:Name="buttonSave" Width="137" Height="25" Click="buttonSave_Click" BorderThickness="0,0,0,1" BorderBrush="White" Background="White"/>
+                <Button Content="Введите размер Текста"  Width="131" Height="25" x:Name="buttonSize" Click="buttonSize_Click" Background="White" BorderBrush="White"/>
+                <TextBox x:Name="txtSize" Width="132" Height="25" BorderBrush="#FF655A5A" BorderThickness="0,0,0,1"/>
+                <Button Content="О авторе"  Width="106" Height="25" x:Name="buttonAuthor" Click="buttonAuthor_Click" Background="White" BorderBrush="White"/>
+            </StackPanel>
+        </Grid>
+
+        <RichTextBox Name="tb1" FontSize="14" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" Width="780" Height="383"/>
+    </Grid>
+</Window>
