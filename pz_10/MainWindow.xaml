@@ -15,7 +15,7 @@
                 <Button Content="U" x:Name="buttonStyle" Width="56" Height="25" Click="buttonStyle_Click" BorderThickness="0,0,0,1" BorderBrush="White" Background="White"/>
                 <Button Content="Отменить" x:Name="buttonUndo" Width="95" Height="25" Click="buttonUndo_Click" BorderThickness="0,0,0,1" BorderBrush="White" Background="White"/>
                 <Button Content="Сохранить" x:Name="buttonSave" Width="137" Height="25" Click="buttonSave_Click" BorderThickness="0,0,0,1" BorderBrush="White" Background="White"/>
-                <Button Content="Введите размер Текста"  Width="131" Height="25" x:Name="buttonSize" Click="buttonSize_Click" Background="White" BorderBrush="White"/>
+                <Button Content="Введите размер текста"  Width="131" Height="25" x:Name="buttonSize" Click="buttonSize_Click" Background="White" BorderBrush="White"/>
                 <TextBox x:Name="txtSize" Width="132" Height="25" BorderBrush="#FF655A5A" BorderThickness="0,0,0,1"/>
                 <Button Content="О авторе"  Width="106" Height="25" x:Name="buttonAuthor" Click="buttonAuthor_Click" Background="White" BorderBrush="White"/>
             </StackPanel>
